@@ -1,9 +1,8 @@
 :root {
-    --blue1: #8ecae6;
-    --blue2: #2696ca;
-    --blue3: #023047;
-    --yellow: #ffb703;
-    --orange: #fb8500;
+    --darkgray: #37353E;
+    --darkgray2: #44444E;
+    --white: #D3DAD9;
+    --maron: #715A5A;
 }
 
 * {
@@ -13,7 +12,7 @@
 }
 
 body {
-    background-color: var(--blue3);
+    background-color: var(--darkgray);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,16 +42,16 @@ body {
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 40px;
-    color: var(--blue1);
+    color: var(--darkgray);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
 
 .line {
-    background-color: var(--yellow);
+    background-color: var(--white);
     height: 3px;
-    border: var(--yellow);
+    border: var(--white);
     width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -69,7 +68,7 @@ body {
 }
 
 .card {
-    background-color: var(--yellow);
+    background-color: var(--maron);
     border-radius: 20px;
     box-shadow: 0 4px 20px #090909;
     width: 300px;
@@ -81,19 +80,19 @@ body {
 }
 
 .bottom-card h2 {
-    color: var(--orange);
+    color: var(--white);
     font-size: 32px;
     text-shadow: 0 4px 4px #090909;
     margin-bottom: 10px;
 }
 
 .bottom-card p {
-    color: var(--blue3);
+    color: var(--maron);
     font-size: 20px;
 }
 
 button {
-    background-color: var(--orange);
+    background-color: var(--maron);
     color: #090909;
     border-radius: 999px;
     margin-top: 50px;
@@ -145,7 +144,7 @@ button:hover {
 
     .title {
         font-family: "Krona One", sans-serif;
-        color: var(--yellow);
+        color: var(--white);
         font-size: 100px;
         text-shadow: 0 4px 4px #090909;
         width: 100%;
@@ -168,16 +167,16 @@ button:hover {
     .line2 {
         width: 90vw;
         height: 5px;
-        border: var(--orange);
-        background-color: var(--orange);
+        border: var(--darkgray2);
+        background-color: var(--darkgray2);
         display: block;
     }
 
     .line3 {
         width: 90vw;
         height: 5px;
-        border: var(--orange);
-        background-color: var(--orange);
+        border: var(--darkgray2);
+        background-color: var(--darkgray2);
         display: block;
     }
 }
